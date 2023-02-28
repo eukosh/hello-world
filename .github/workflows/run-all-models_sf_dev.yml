@@ -7,7 +7,7 @@ on:
 jobs:
   scheduled_run:
     name: Run All Models in Snowflake Dev Nightly
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
 
     env:
       working-dir: ./osmosis_core
