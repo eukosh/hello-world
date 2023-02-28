@@ -6,7 +6,7 @@ on:
 
 jobs:
   scheduled_run:
-    name: Run All Models in Snowflake Dev Nightly
+    name: Test
     runs-on: ubuntu-latest
 
     env:
@@ -17,7 +17,7 @@ jobs:
       - name: Checkout the code
         uses: actions/checkout@v2
         with:
-          ref: master
+          ref: test
 
       - name: 'Set up Python environment'
         uses: actions/setup-python@v4
