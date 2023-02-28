@@ -1,4 +1,4 @@
-name: Run All Models in Snowflake Dev Nightly
+name: test
 
 on:
   schedule:
